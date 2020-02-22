@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget"/>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>400</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuColor">
+    <property name="title">
+     <string>Диалог и цвет</string>
+    </property>
+    <addaction name="actionBlue"/>
+    <addaction name="actionRed"/>
+    <addaction name="action"/>
+   </widget>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>Запуск</string>
+    </property>
+    <addaction name="action_2"/>
+    <addaction name="action_3"/>
+   </widget>
+   <addaction name="menuColor"/>
+   <addaction name="menu"/>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="actionBlue">
+   <property name="text">
+    <string>Открыть Диалог</string>
+   </property>
+  </action>
+  <action name="actionRed">
+   <property name="text">
+    <string>Red</string>
+   </property>
+  </action>
+  <action name="action">
+   <property name="text">
+    <string>СЛИТЬСЯ С МЕСТНОСТЬЮ</string>
+   </property>
+  </action>
+  <action name="action_2">
+   <property name="text">
+    <string>Огонь!</string>
+   </property>
+  </action>
+  <action name="action_3">
+   <property name="text">
+    <string>Поехали</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
